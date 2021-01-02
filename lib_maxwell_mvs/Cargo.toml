@@ -1,11 +1,13 @@
 [package]
-name = "maxwell-mvs"
+name = "lib_maxwell_mvs"
 version = "0.1.0"
 authors = ["Artur Sinila <opensource@logarithmus.dev>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "lib_maxwell_mvs"
 
 [dependencies]
 statrs = "0.13"
-rand = "0.8"
+rand = "0.7"
+plotters = "0.3"

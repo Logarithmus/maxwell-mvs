@@ -1,0 +1,8 @@
+[package]
+name = "maxwell_mvs_app"
+version = "0.1.0"
+authors = ["Artur Sinila <opensource@logarithmus.dev>"]
+edition = "2018"
+
+[dependencies]
+lib_maxwell_mvs = { path = "../lib_maxwell_mvs" }
